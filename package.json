@@ -1,0 +1,21 @@
+{
+  "name": "@orkid-labs/hedera-analytics",
+  "version": "0.1.0",
+  "description": "Hedera Hashgraph analytics tools — staking profiler, data refinery, Prolog facts",
+  "scripts": {
+    "profile": "cd analytics && python hedera_staking_profiler.py"
+  },
+  "keywords": [
+    "hedera",
+    "hashgraph",
+    "staking",
+    "analytics",
+    "prolog"
+  ],
+  "author": "Orkid Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orkid-labs/hedera-analytics.git"
+  }
+}

@@ -45,3 +45,18 @@ swipl -s hedera_facts.pl
 ## License
 
 MIT
+
+---
+
+## Part of Orkid Labs
+
+**hedera-analytics** — Hedera Hashgraph analytics toolkit — staking profiler, data refinery, and Prolog fact extraction.
+
+- Install: `pip install hedera-analytics`
+- Package: https://pypi.org/project/hedera-analytics
+- API docs: https://docs.orkidlabs.xyz/packages/hedera-analytics
+- Docs: https://docs.orkidlabs.xyz/packages/hedera-analytics
+
+Related Orkid projects: [hedera-utils](https://github.com/orkid-labs/hedera-utils), [settlement-types](https://github.com/orkid-labs/settlement-types)
+
+Orkid Labs builds gasless, MEV-protected swap routing and agent-native DeFi infrastructure — [orkidlabs.xyz](https://orkidlabs.xyz) · [@orkid-labs on npm](https://www.npmjs.com/org/orkid-labs) · [github.com/orkid-labs](https://github.com/orkid-labs)

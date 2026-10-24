@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hedera-analytics"
+version = "0.1.0"
+description = "Hedera Hashgraph analytics toolkit — staking profiler, data refinery, and mirror-node analysis"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Orkid Labs" }]
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31.0"]
+keywords = ["hedera", "hashgraph", "analytics", "staking", "mirror-node", "hbar"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Repository = "https://github.com/orkid-labs/hedera-analytics"
+Documentation = "https://docs.orkidlabs.xyz/packages/hedera-analytics"
+Homepage = "https://orkidlabs.xyz"
+
+[tool.setuptools]
+packages = ["analytics"]
